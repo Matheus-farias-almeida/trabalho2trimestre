@@ -26,11 +26,15 @@ main{
 }
 
 form{
+    width: 60%;
+}
+
+.horizontal{
     display: flex;
-    flex-direction: row;
+    position: relative;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 45%;
 }
 
 input{
